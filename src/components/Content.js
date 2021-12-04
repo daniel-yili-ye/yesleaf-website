@@ -11,7 +11,7 @@ function Content() {
           The all-in-one accounting software solution for your small business
           needs.
         </p>
-        <button className="text-xl leading-none px-4 py-2 lg:my-4 mb-4 rounded bg-blue-500 text-white hover:bg-blue-200">
+        <button className="text-xl leading-none px-4 py-2 lg:my-4 mb-4 rounded bg-blue-500 text-white hover:bg-blue-700">
           Get Started Now!
         </button>
       </div>
