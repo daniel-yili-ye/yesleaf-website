@@ -32,7 +32,7 @@ function Serve() {
         </div>
       </div>
       <div className="rounded bg-blue-200 flex justify-center items-center p-6">
-        <img src={ironchef} alt="iron chef" className="mr-4" />
+        <img src={ironchef} alt="iron chef" className="mr-4 sm:h-20 h-10" />
         <div className="flex flex-col ml-4">
           <p className="text-xl">
             Yesleaf automates and simplifies my daily business processes saving

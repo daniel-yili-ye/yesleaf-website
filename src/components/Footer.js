@@ -154,7 +154,7 @@ function Footer() {
             </ul>
           </div>
           <div className="sm:px-4 mt-12 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 sm:flex sm:justify-center xl:block">
-            <img src={logo} alt="logo" classNameName="h-10" />
+            <img src={logo} alt="logo" className="h-10" />
           </div>
         </div>
 

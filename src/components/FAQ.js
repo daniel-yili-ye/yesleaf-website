@@ -2,18 +2,18 @@ function FAQ() {
   return (
     <div className="container mx-auto p-6">
       <p className="text-5xl font-bold">FAQ</p>
-      <div class="mt-4 mb-6">
-        <details class="mb-4">
-          <summary class="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
+      <div className="mt-4 mb-6">
+        <details className="mb-4">
+          <summary className="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
             What is Yesleaf?
           </summary>
-          <div class="p-3">
-            <p class="text-gray-600 mb-3">
+          <div className="p-3">
+            <p className="text-gray-600 mb-3">
               Yesleaf automates and simplifies my daily business processes
               saving me precious time and resources that I can now allocate on
               more productive activities.
             </p>
-            <p class="text-gray-600">
+            <p className="text-gray-600">
               Nunc ac efficitur sapien. Mauris eu lectus odio. Mauris ac erat
               tortor. Nulla consectetur commodo justo. Pellentesque eget ornare
               quam. Pellentesque sodales metus non semper luctus. Praesent non
@@ -22,36 +22,36 @@ function FAQ() {
             </p>
           </div>
         </details>
-        <details class="mb-4">
-          <summary class="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
+        <details className="mb-4">
+          <summary className="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
             Is there a Monthly Free for Yesleaf?
           </summary>
-          <div class="p-3">
-            <p class="text-gray-600">
+          <div className="p-3">
+            <p className="text-gray-600">
               Yesleaf automates and simplifies my daily business processes
               saving me precious time and resources that I can now allocate on
               more productive activities.
             </p>
           </div>
         </details>
-        <details class="mb-4">
-          <summary class="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
+        <details className="mb-4">
+          <summary className="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
             Is there Yesleaf for personal use?
           </summary>
-          <div class="p-3">
-            <p class="text-gray-600">
+          <div className="p-3">
+            <p className="text-gray-600">
               Yesleaf automates and simplifies my daily business processes
               saving me precious time and resources that I can now allocate on
               more productive activities.
             </p>
           </div>
         </details>
-        <details class="mb-4">
-          <summary class="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
+        <details className="mb-4">
+          <summary className="bg-gray-200 pl-3 pr-2 py-3 w-full rounded text-gray-600 font-bold cursor-pointer hover:bg-gray-300">
             What are the main advantages of using Yesleaf?
           </summary>
-          <div class="p-3">
-            <p class="text-gray-600">
+          <div className="p-3">
+            <p className="text-gray-600">
               Yesleaf automates and simplifies my daily business processes
               saving me precious time and resources that I can now allocate on
               more productive activities.

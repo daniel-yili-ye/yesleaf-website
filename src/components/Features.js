@@ -1,4 +1,4 @@
-import coffeeshop from "../images/coffeeshop.jpg";
+import coffeeshop from "../assets/coffeeshop.jpg";
 
 function Features() {
   return (
