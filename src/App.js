@@ -1,20 +1,23 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Content from "./components/Content";
-import Features from "./components/Features";
-import Serve from "./components/Serve";
-import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import homepage from "./homepage";
+import product from "./product";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Content />
-      <Features />
-      <Serve />
-      <FAQ />
-      <Footer />
+      {/* <Navbar /> */}
+      <Routes>
+        <Route path="/" element={<homepage />} />
+        <Route path="/product" element={<product />} />
+        <Route path="/services" element={<product />} />
+        <Route path="/pricing" element={<product />} />
+        <Route path="/contact" element={<product />} />
+        <Route path="/signup" element={<product />} />
+        <Route path="/login" element={<product />} />
+      </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }

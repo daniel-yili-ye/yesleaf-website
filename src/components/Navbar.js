@@ -1,10 +1,13 @@
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="container mx-auto flex items-center justify-between flex-wrap bg-white p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <img src={logo} alt="logo" className="h-5" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="h-5" />
+        </Link>
       </div>
       <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-blue-500 border-blue-500 hover:text-blue-200 hover:border-blue-200">
@@ -20,40 +23,40 @@ function Navbar() {
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="lg:flex-grow">
-          <a
-            href="#responsive-header"
+          <Link
+            to="/product"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-blue-200 mr-4"
           >
             Product
-          </a>
-          <a
-            href="#responsive-header"
+          </Link>
+          <Link
+            to="/services"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-blue-200 mr-4"
           >
             Services
-          </a>
-          <a
-            href="#responsive-header"
+          </Link>
+          <Link
+            to="/pricing"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-blue-200 mr-4"
           >
             Pricing
-          </a>
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-blue-200"
+          </Link>
+          <Link
+            to="/contact"
+            className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-blue-200 mr-4"
           >
             Contact
-          </a>
+          </Link>
         </div>
         <div>
           <a
-            href="#"
+            href="/signup"
             className="block lg:inline-block px-4 py-2 leading-none border rounded text-blue-500 border-blue-500 hover:border-transparent hover:text-white hover:bg-blue-500 mt-4 lg:mt-0 lg:mr-4 mr-0"
           >
             Sign Up
           </a>
           <a
-            href="#"
+            href="/login"
             className="block lg:inline-block px-4 py-2 leading-none border rounded text-blue-500 border-blue-500 hover:border-transparent hover:text-white hover:bg-blue-500 mt-4 lg:mt-0"
           >
             Log In
