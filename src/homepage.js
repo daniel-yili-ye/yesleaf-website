@@ -3,7 +3,7 @@ import Features from "./components/Features";
 import Serve from "./components/Serve";
 import FAQ from "./components/FAQ";
 
-function homepage() {
+function Homepage() {
   return (
     <div>
       <Content />
@@ -14,4 +14,4 @@ function homepage() {
   );
 }
 
-export default homepage;
+export default Homepage;

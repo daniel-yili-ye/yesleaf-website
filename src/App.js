@@ -1,23 +1,23 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import homepage from "./homepage";
-import product from "./product";
+import Homepage from "./Homepage";
+import Product from "./Product";
 
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
-        <Route path="/" element={<homepage />} />
-        <Route path="/product" element={<product />} />
-        <Route path="/services" element={<product />} />
-        <Route path="/pricing" element={<product />} />
-        <Route path="/contact" element={<product />} />
-        <Route path="/signup" element={<product />} />
-        <Route path="/login" element={<product />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/services" element={<Product />} />
+        <Route path="/pricing" element={<Product />} />
+        <Route path="/contact" element={<Product />} />
+        <Route path="/signup" element={<Product />} />
+        <Route path="/login" element={<Product />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
